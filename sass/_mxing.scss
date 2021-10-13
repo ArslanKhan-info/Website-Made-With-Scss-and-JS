@@ -1,0 +1,2 @@
+@mixin transform-scale($val){-moz-transform: scale($val);-webkit-transform: scale($val);-ms-transform: scale($val);-o-transform: scale($val);transform: scale($val);}
+@mixin center {position: absolute; top: 50%;left:50%;transform: translate(-50%, -50%);}

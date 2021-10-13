@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAAA,GAAG,CAAA;EACC,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAEtB;;AACD,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,YAAY;EACtB,WAAW,EAAE,IAAI;EAChB,QAAQ,EAAE,QAAQ;CAIrB;;AAPD,AAII,UAJM,AAIL,YAAY,CAAC;EACV,WAAW,EAAE,CAAC;CACjB;;AAEL,AAAA,OAAO,CAAA;EAAC,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "my library.scss"
+    ],
+    "names": [],
+    "file": "my library.css"
+}

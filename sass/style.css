@@ -1,0 +1,157 @@
+body {
+  height: 2000rem;
+}
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+* a {
+  text-decoration: none;
+}
+
+.group1 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.title h1, .title h2 {
+  font-family: "Alfa Slab One";
+}
+
+.logo-c, .site-header {
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.site-header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0;
+  z-index: 999;
+  padding: 3rem 0;
+}
+
+.site-header .logo-c {
+  width: 350px;
+}
+
+.site-header .collaps-menu {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid #3d251452;
+}
+
+.site-header .collaps-menu .menu-item a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4rem;
+  color: #3d2514;
+}
+
+.site-header .collaps-menu .menu-item a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 2.2rem;
+  left: 0px;
+  background: #3d2514;
+  color: #3d2514;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.25s linear;
+  transition: -webkit-transform 0.25s linear;
+  transition: transform 0.25s linear;
+  transition: transform 0.25s linear, -webkit-transform 0.25s linear;
+}
+
+.site-header .collaps-menu .menu-item a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.fixed {
+  background-color: #ffc045;
+  padding: 1rem 0;
+}
+
+.fixed .logo-c {
+  width: 250px;
+}
+
+.fixed .menu-item a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+  color: #3d2514;
+}
+
+.fixed .menu-item a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 2.2rem;
+  left: 0px;
+  background: #ffc045;
+  color: #3d2514;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.25s linear;
+  transition: -webkit-transform 0.25s linear;
+  transition: transform 0.25s linear;
+  transition: transform 0.25s linear, -webkit-transform 0.25s linear;
+}
+
+.fixed .menu-item a:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.group1 {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.group1 .title p {
+  font-size: .95rem;
+  font-weight: 500;
+  color: #3d2514;
+}
+
+.group1 .title h1 {
+  font-size: 5rem;
+  color: #3d2514;
+  font-weight: 100;
+}
+
+.group1 .title h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1rem;
+  margin: auto 0.2rem;
+  color: #3d2514;
+}
+/*# sourceMappingURL=style.css.map */

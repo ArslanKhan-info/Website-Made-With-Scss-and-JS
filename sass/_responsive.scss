@@ -1,0 +1,138 @@
+@media screen and (max-width:1400px){
+    html{font-size: 16px;}
+    .menu{
+        .burger-img{max-width: 250px;min-height: 270px;}
+    }
+    .reservation-p{padding: 0 0;}
+.form-img1{max-width:50px;bottom: 0px;left: 170px;z-index: 1;}
+.form-img2{max-width: 180px;bottom: 0px;right: 0px;z-index: 1;}
+.form-img3{max-width: 160px;top: 0px;left: 0px;z-index: 1;}
+.slide-text ,.slide-img{max-width:550px;}
+}
+@media screen and (max-width:1200px){
+    html{font-size: 15px;}
+    .menu{
+        .burger-img{max-width: 200px;min-height: 240px;}
+    }
+    .reservation-p{padding: 0 0;}
+    .title-t2{font-family :'Alfa Slab One';font-weight: 100;font-size: 2.8rem;}
+    .input{height: 2.7rem; width: 18rem;margin: .8rem; font-size: 1rem;}
+    .slide-text ,.slide-img{max-width:550px;}
+    .form-img1{max-width:50px;bottom: 0px;left: 140px;}
+    .form-img2{max-width: 150px;bottom: 0px;right: 0px;}
+    .form-img3{max-width: 140px;top: 0px;left: 0px;}
+}
+@media screen and (max-width:992px){
+    html{font-size: 14px;}
+    .menu{
+        .burger-img{max-width: 150px;min-height: 170px;}
+    }
+    .title-t{font-size: 3.5rem;}
+    .title-t2{font-size: 2.7rem;}
+    .inner-title-m{font-size:1rem;}
+    .inner-title-l{font-size:1.8rem;}
+    .ro-r{font-weight: 400;}
+    .site-header {
+        .logo{max-width: 270px;}
+    }
+    .fixed{background-color: $theme ; padding:  .7rem 0;
+        .logo{max-width: 230px;}
+    }
+    .slide-text {max-width:45%;}
+    .slide-img{max-width: 45%;}
+    .reservation-p{padding: 0 0;}
+    .form-img1{max-width:50px;bottom: 0px;left: 120px;}
+    .form-img2{max-width: 120px;bottom: 0px;right: 0px;}
+    .form-img3{max-width: 130px;top: 0px;left: 0px;}
+    .input{height: 2.4rem; width: 16rem;margin: .7rem; font-size: .9rem;}
+}
+@media screen and (max-width:947px){
+    .card2{gap:1.5rem}
+    .title-t2{font-size: 2.3rem;}
+    .inner-title-m{font-size:.9rem;}
+    .inner-title-l{font-size:1.5rem;}
+    .slide-text {
+        .title-t2{font-size: 2rem;}
+    }
+    .reservation-p{padding: 0 0;}
+    .form-img1{max-width:45px;bottom: 0px;left: 100px;}
+    .form-img3{max-width: 110px;top: 0px;left: 0px;}
+    .discover{margin-top:.7rem;}
+    .event{line-height:3rem;margin-bottom: 1rem;}
+    .event-info{line-height: 1.6rem;}
+    .slide{gap:.7rem;}
+}
+@media screen and (max-width:829px){
+    .card2{gap:1.5rem}
+    .form-img1{max-width:45px;bottom: 0px;left: 76px;}
+    .discover{margin-top:0rem;}
+    .slide-text {
+        .title-t2{font-size: 1.7rem;}
+    }
+    .reservation-p{padding: 0 0;}
+    .event{line-height:2.5rem;margin-bottom: 0rem;}
+    .event-info{line-height: 1.5rem;font-size: .9rem;}
+}
+@media screen and (max-width:768px){
+    .sec-pd-xxl{margin: 4rem 0;}
+    .card2{gap:.9rem}
+    .menu{
+        .burger-img{max-width: 125px;min-height: 145px;margin: 0 auto;}
+    }
+    .slide{flex-direction: column;text-align: center; gap: 1.5rem;}
+    .slide-btn{ justify-content: center;}
+    .slide-text {max-width:100%;}
+    .slide-img{max-width: 100%; max-height: 300px;}
+    .form-img1{max-width:30px;bottom: 0px;left: 55px;}
+    .form-img2{max-width: 85px;bottom: 0px;right: 0px;}
+    .form-img3{max-width: 85px;top: 0px;left: 0px;}
+    .reservation-p{padding: 0 0;}
+}
+@media screen and (max-width:650px){
+    .form-img1{max-width:30px;bottom: 0px;left: 30px;}
+    .form-img2{max-width: 65px;bottom: 0px;right: 0px;}
+}
+@media screen and (max-width:620px){
+    .form-img1{max-width:25px;bottom: 0px;left: 20px;}
+    .form-img2{max-width: 45px;bottom: 0px;right: 0px;}
+    .form-img3{max-width: 65px;top: 0px;left: 0px;}
+    .site-header{
+        #open{display: block;}
+        .collaps-menu{ position: fixed; padding: 0px; width: 100%; height: 100vh; top: 55px; left: -100%; background-color: $theme; transition: all .4s ease-in-out;}
+        .menu-item{display: block;text-align: center;margin-top: 40px;margin-left: 0;}
+        #toggel-menu:checked~.collaps-menu{left: 0;transition: all .4s ease-in-out;}
+        #toggel-menu:checked~.menu-switch #cancel{display: block;}
+        #toggel-menu:checked~.menu-switch #open{display: none;}
+
+    }
+}
+@media screen and (max-width:620px){
+    html{font-size: 13px;}
+    .sec-pd-xl{margin:3rem 0} 
+    .input{height: 2rem; width: 12rem;margin: .5rem; font-size: .7rem;}
+    .inner-title-l{font-size:1.2rem;}
+    .card1-text{top: .8rem;left: 1rem;line-height: 1.5rem;}
+    .card2-text{top: .8rem;left: 1rem;line-height: 1.5rem;}
+    .menu{
+        .burger-img{max-width: 105px;min-height: 125px;margin: 0 auto;}
+    }
+    .banner-text p{color: $white;}
+}
+@media screen and (max-width:480px){
+    html{font-size: 12px;}
+    .menu{
+        .burger-img{max-width: 95px;min-height: 105px;margin: 0 auto;}
+    }
+    .form-img1{max-width:15px;bottom: 0px;left: 20px;}
+    .form-img2{max-width: 25px;bottom: 0px;right: 0px;}
+    .form-img3{max-width: 35px;top: 0px;left: 0px;}
+    .input{height: 2rem; width: 10rem;margin: .5rem; font-size: .7rem;}
+    .btn{font-size: .7rem;}
+}
+@media screen and (max-width:350px){
+    .menu{
+        .burger-img{max-width: 65px;min-height: 85px;margin: 0 auto;}
+    }
+    .card1-text{top: .3rem;left: .5rem;line-height: 1.2rem;}
+    .card2-text{top: .3rem;left: .5rem;line-height: 1.2rem;}
+}

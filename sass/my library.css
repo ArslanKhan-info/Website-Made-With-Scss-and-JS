@@ -1,0 +1,23 @@
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.menu-item:first-child {
+  margin-left: 0;
+}
+
+.arslsn {
+  background: #000;
+}
+/*# sourceMappingURL=my library.css.map */
